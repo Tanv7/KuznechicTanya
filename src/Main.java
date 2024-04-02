@@ -36,8 +36,22 @@ public static void AskRouteLength( x1;y1,x2;y2,x3;y3);
 
             //return new frog
         }
-
-
+    public static Frog inputFrog () {
+        Scanner scan = new Scanner(System.in);
+        System.out.println(" Ввести координаты и радиус действия Лягушки ");
+        int x = scan.nextInt();
+        int y = scan.nextInt();
+        int r = scan.nextInt();
+        return new Frog (x,y,r);
+    }
+    public static Point() {
+        Scanner scan = new Scanner(System.in);
+        System.out.println(" Ввести длину маршрута ");
+        int n = scan.nextInt();
+        Point[] route= new Point[n];
+        System.out.println ("Введите пары координат точек маршрута");
+        for (int i=0;i<n;i++) {;
+            int x= scanner.next
     }
 }
 
